@@ -1,0 +1,14 @@
+n = 16
+print ("divizorii lui 16 sunt:")
+print ("\n")
+d = 2
+while d < 16:
+	if n % d == 0:
+		print (d)
+		print (" este divizor")
+		print ("\n")
+	else:
+		print(d)
+		print(" nu este divizor")
+		print("\n")
+	d = d + 1

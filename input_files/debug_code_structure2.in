@@ -1,0 +1,10 @@
+a = 10
+if a:
+	if a >= 10:
+		if a < 10:
+			b = 50
+	else:
+		b = 15
+else:
+	if a == 10:
+		c = 1

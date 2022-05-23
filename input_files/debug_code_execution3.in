@@ -1,0 +1,15 @@
+n = 25
+print ("se calculeaza numere prime mai mici ca:")
+print (n)
+print ("\n")
+nr = 2
+while nr < n:
+	prim = 1
+	start = nr / 2
+	for x in range(start, 1, -1):
+		if nr % x == 0:
+			prim = 0
+	if prim:
+		print(nr)
+		print("\n")
+	nr = nr + 1

@@ -1,0 +1,8 @@
+n = 10
+for i in range(10):
+	for j in range (0, n):
+		if i == j or i + j == n - 1:
+			print ("#")
+		else:
+			print("0")
+	print ("\n")
